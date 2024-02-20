@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://kit.fontawesome.com/b3e653bcb2.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color: white;">
+    <section class="main">
+        <div class="top">
+            <img src="https://www.livetecs.com/wp-content/uploads/2019/05/Project-Time-Expense-Tracking.png"
+                style="width:90px;"><a href="#" style="text-decoration: none;">
+                <h2 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:30px;">Expense Tracker</h2>
+            </a>
+        </div>
+        <hr>
+        <section >
+            <section class="sec1">
+                <h3>Add Transaction </h3>
+                <form>
+                    <label>Description</label><br>
+                    <input type="text" placeholder="Enter your description" style="height:90px;width:80%;"><br><br>
+                    <div class="grii">
+                        <div>
+                            <label>Category</label><br>
+                            <select name="category">
+                                <option disabled selected>Your Choice</option>
+                                <option>Food</option>
+                                <option>Travel</option>
+                                <option>Shopping</option>
+                                <option>Rent</option>
+                                <option>Trip</option>
+                                <option>Tax</option>
+                                <option>Subscriptions</option>
+                                <option>Gym</option>
+                                <option>Gifts</option>
+                                <option>Partys</option>
+                                <option>Personal</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Date</label><br>
+                            <input type="date">
+                        </div>
+                    </div><br>
+                    <label>Type</label><br>
+                    <input type="radio" id="Cash" name="type"><label for="Cash">Cash</label>
+                    <input type="radio" id="ccard" name="type"><label for="ccard">Credit Card</label>
+                    <input type="radio" id="dcard" name="type"><label for="dcard">Debit Card</label>
+                    <input type="radio" id="upi" name="type"><label for="upi">UPI</label><br><br>
+                    <label>Amount</label><br>
+                    <input type="text"><br><br>
+                    <a href="#"><button style="float:right;" class="sub">Submit</button></a>
+                    <br><br>
+                </form>
+            </section><br><br>
+            <section class="sec2">
+                <!-- <div class="gri">
+                    <div>
+                        <h1>Expenses</h1>
+                    </div>
+                    <div>
+                        <h1>Amount</h1>
+                    </div>
+                    <div>
+                        <h1>Delete</h1>
+                    </div>
+                </div>  ;"-->
+                <div style="overflow-x:auto">
+                    <table>
+                        <tr>
+                            <th>
+                                Expenses
+                            </th>
+                            <th>
+                                Description
+                            </th>
+                            <th>
+                                Amount
+                            </th>
+                            <th>
+                                Type 
+                            </th>
+                            <th>
+                                Delete
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                Food
+                            </td>
+                            <td>
+                                Online Order - Pizza
+                            </td>
+                            <td>
+                                200
+                            </td>
+                            <td>
+                                UPI
+                            </td>
+                            <td>
+                                <a href="#"><i class="fa-solid fa-trash"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Transport
+                            </td>
+                            <td>
+                                Petrol
+                            </td>
+                            <td>
+                                400
+                            </td>
+                            <td>
+                                Cash
+                            </td>
+                            <td>
+                                <a href="#"><i class="fa-solid fa-trash"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Gifts
+                            </td>
+                            <td>
+                                For my friend Birthday
+                            </td>
+                            <td>
+                                800
+                            </td>
+                            <td>
+                                Credit Card
+                            </td>
+                            <td>
+                                <a href="#"><i class="fa-solid fa-trash"></i></a>
+                            </td>
+                        </tr>
+                        <tr>              
+                            <td>
+                                Subscriptions
+                            </td>
+                            <td>
+                               Netflix 
+                            </td>
+                            <td>
+                                1000
+                            </td>
+                            <td>
+                                Credit Card
+                            </td>
+                            <td>
+                                <a href="#"><i class="fa-solid fa-trash"></i></a>
+                            </td>
+                        </tr>
+                        <tr>              
+                            <td>
+                                Rent
+                            </td>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                10000
+                            </td>
+                            <td>
+                                Debit Card
+                            </td>
+                            <td>
+                                <a href="#"><i class="fa-solid fa-trash"></i></a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <section class="sec2">
+
+            </section>
+        </section>
+    </section>
+</body>
+
+</html>

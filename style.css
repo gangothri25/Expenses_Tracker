@@ -1,0 +1,85 @@
+
+.main{
+    margin:10px;
+}
+body{
+    font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  
+}
+.top{
+    display:grid;
+    grid-template-columns: 1fr 5fr;
+}
+.top a{
+    color:chocolate;
+}
+
+.sec1{
+    padding:30px;
+    background-color:rgb(249, 241, 230);
+}
+.grii{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap:20px;
+}
+input[type="radio"]{
+    accent-color: chocolate;
+}
+select{
+    background-color: rgb(232, 158, 105);
+    border:none;
+    padding: 3px;
+    border-radius:2px;
+    color:white;
+    
+}
+option{
+    color:white;
+}
+
+.sub{
+    color:white;
+    background-color: chocolate;
+    border: none;
+    border-radius: 30px;
+    font-family: "Cookie", cursive;
+    font-size: 25px;
+  
+}
+.sub:hover{
+    color:chocolate;
+    background-color: white;
+    box-shadow: 4px 4px 3px chocolate;
+}
+.sec2{
+    padding:30px;
+    background-color:rgb(249, 241, 230);
+    padding-left: 5%;
+   
+}
+table ,th,td{
+    border:1px solid;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+th{ 
+    padding: 15px;
+}
+td{
+    padding: 15px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:15px;
+}
+.fa-solid{
+    color:chocolate;
+}
+
+input[type="text"]{
+    font-family:'Times New Roman', Times, serif;
+    font-size:15px;
+}
